@@ -19,7 +19,7 @@ DATA_URL=(r"Tweetsa.csv")
 def load_dat():
     data=pd.read_csv(DATA_URL)
     data["tweet_created"]=pd.to_datetime(data["tweet_created"]) 
-    return dataE3SD
+    return data
     
 data=load_dat()  
    
