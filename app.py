@@ -14,7 +14,7 @@ st.markdown("![Alt Text](https://akm-img-a-in.tosshub.com/sites/btmt/images/stor
 st.sidebar.title("Sentiment Analysis of US airlines")
 st.markdown("This application is used to analyze Tweets sentiment")
 st.sidebar.markdown("Filters")
-DATA_URL=(r"C:\Users\tusman\Documents\Vspy\Tweets.csv")
+DATA_URL=(r"Tweetsa.csv")
 @st.cache(persist=True)
 def load_dat():
     data=pd.read_csv(DATA_URL)
